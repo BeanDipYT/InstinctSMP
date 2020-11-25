@@ -60,3 +60,6 @@ body {
     border: double;
     border-color: powderblue;
 }
+.foot {
+    height: 75px;
+}
