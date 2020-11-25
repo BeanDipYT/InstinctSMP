@@ -48,3 +48,15 @@ body {
     border: double;
     border-color: darkgray;
 }
+.pig {
+    border: double;
+    border-color: goldenrod;
+}
+.with {
+    border: double;
+    border-color: darkslateblue;
+}
+.misc {
+    border: double;
+    border-color: powderblue;
+}
