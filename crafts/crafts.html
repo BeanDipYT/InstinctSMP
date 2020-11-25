@@ -1,0 +1,66 @@
+<html>
+    <title>InstinctSMP | Crafting Recipes</title>
+    <link rel="stylesheet" href="crafts.css">
+    <link rel="icon" href="../instinct.png">
+    <body>
+        <div class="armors">
+            <h1 class="armor">Crafting Recipes</h1>
+        <button class="accordion">Zombie Gear</button>
+        <div class="panel">
+            <img class="rot" src="Zombie Gear/zombie helm.PNG" alt="Zombie Helmet">
+            <img class="rot" src="Zombie Gear/zombie chest.PNG" alt="Zombie Chestplate">
+            <img class="rot" src="Zombie Gear/zombie leggings.PNG" alt="Zombie Leggings">
+            <img class="rot" src="Zombie Gear/zombie boots.PNG" alt="Zombie Boots">
+            <img class="rot" src="Zombie Gear/zombie sword.PNG" alt="Zombie Sword">
+            <br>
+            <img class="rot" src="Zombie Gear/zombie pick.PNG" alt="Zombie Pickaxe">
+            <img class="rot" src="Zombie Gear/zombie axe.PNG" alt="Zombie Axe">
+            <img class="rot" src="Zombie Gear/zombie hoe.PNG" alt="Zombie Hoe">
+            <img class="rot" src="Zombie Gear/zombie shovel.PNG" alt="Zombie Shovel">
+            <img class="rot" src="Zombie Gear/zombie bow.PNG" alt="Zombie Bow">
+        </div>
+        <br>
+        <button class="accordion">Drowned Gear</button>
+        <div class="panel">
+            <img class="wet" src="Drowned Gear/drowned helm.PNG" alt="Drowned Helmet">
+            <img class="wet" src="Drowned Gear/drowned chest.PNG" alt="Drowned Chestplate">
+            <img class="wet" src="Drowned Gear/drowned leggings.PNG" alt="Drowned Leggings">
+            <img class="wet" src="Drowned Gear/drowned boots.PNG" alt="Drowned Boots">
+            <img class="wet" src="Drowned Gear/Drowned_Rod.png" alt="Drowned Rod">
+        </div>
+        <br>
+        <button class="accordion">Skeleton Gear</button>
+        <div class="panel">
+            <img class="bone" src="Skeleton Gear/Skeleton Helm.png" alt="Skeleton Helmet">
+            <img class="bone" src="Skeleton Gear/skeleton chest.PNG" alt="Skeleton Chestplate">
+            <img class="bone" src="Skeleton Gear/skeleton leggings.PNG" alt="Skeleton Leggings">
+            <img class="bone" src="Skeleton Gear/skeleton boots.PNG" alt="Skeleton Boots">
+            <img class="bone" src="Skeleton Gear/skeleton sword.PNG" alt="Skeleton Sword">
+            <br>
+            <img class="bone" src="Skeleton Gear/skeleton pick.PNG" alt="Skeleton Pickaxe">
+            <img class="bone" src="Skeleton Gear/skeleton axe.PNG" alt="Skeleton Axe">
+            <img class="bone" src="Skeleton Gear/skeleton hoe.PNG" alt="Skeleton Hoe">
+            <img class="bone" src="Skeleton Gear/skeleton shovel.PNG" alt="Skeleton Shovel">
+            <img class="bone" src="Skeleton Gear/skeleton bow.PNG" alt="Skeleton Bow">
+        </div>
+        </div>
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+         }
+        });
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    background-color: #121212;
+}
+.armors {
+    text-align: center;
+}
+.armor {
+    background: url(../spacefade.png);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-size: 3.5cm;
+    text-align: center;
+    -webkit-text-stroke: 1px #ffffff;
+}
+.accordion {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    font-size: 0.75cm;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #121212;
+    color: white;
+}
+.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+}
+.rot {
+    border: double;
+    border-color: springgreen;
+}
+.wet {
+    border: double;
+    border-color: teal;
+}
+.bone {
+    border: double;
+    border-color: darkgray;
+}
