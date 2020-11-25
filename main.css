@@ -1,7 +1,9 @@
 body {
     background-color: #121212;
 }
-
+a {
+    text-decoration: none;
+}
 .title-div {
     position: relative;
     text-align: center;
@@ -22,6 +24,17 @@ body {
     padding-top: 75px;
     text-align: center;
     -webkit-text-stroke: 3px #ffffff;
+}
+.main-download {
+    background: url(spacefade.png);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    font-size: 2cm;
+    padding-top: 75px;
+    text-align: center;
+    -webkit-text-stroke: 1.5px #ffffff;
 }
 .event-details {
     padding-top: 100px;
